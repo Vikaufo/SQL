@@ -9,7 +9,7 @@
 - `BETWEEN` - для выбора значений данных из определенного промежутка. Могут быть использованы числовые и текстовые значения, а также даты
 - `LIKE` - используется в WHERE, чтобы задать шаблон поиска похожего значения. % (ни одного, один или несколько символов); _ (один символ)
 -  `IN` - можно указать несколько значений для оператора WHERE. WHERE <col_namen> IN (<value1>, <value2>, …)
-- `CREATE DATABASE` - создания новой БД. CREATE table courses (id INT(10) NOT NULL PRIMARY KEY, faculty VARCHAR(55) NULL, number INT(2) NULL)
+- `CREATE` - создания новой БД. CREATE table courses (id INT(10) NOT NULL PRIMARY KEY, faculty VARCHAR(55) NULL, number INT(2) NULL)
 - `INSERT INTO` - для вставки новых записей в таблицу. INSERT INTO <table_name> (<col_name1>, <col_name2>, <col_name3>, …)
   VALUES (<value1>, <value2>, <value3>, …)
 - `UPDATE` - для обновления данных таблицы. UPDATE <table_name> SET <col_name1> = <value1>, <col_name2> = <value2>, ...WHERE <condition>
