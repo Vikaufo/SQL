@@ -183,6 +183,9 @@ select * from roles;
 -- Поменять тип столба role_name с int на varchar(30)
 alter table roles 
 alter column role_name type varchar(30) using role_name::varchar(30);
+-- Или проще
+-- alter table roles
+-- alter column role_name type varchar(30);
 
 -- Наполнить таблицу roles 20 строками
 insert into roles(role_name)
