@@ -140,7 +140,7 @@ limit 10;
 -- Write a query to output a new table with each animal's name, type and country fields, sorted by countries.
 insert into Animals (name, type, country_id)
 values ('Slim', 'Giraffe', '1');
-select Animals.name, Animals.type, Countries.country FROM Animals 
+select Animals.name, Animals.type, Countries.country from Animals 
 inner join Countries
 on Animals.country_id = Countries.id
 order by Countries.country;
