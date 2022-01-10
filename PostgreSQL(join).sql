@@ -41,7 +41,7 @@ select e.employee_name, r.role_name
 from roles_employee re 
 inner join employees e on re.employee_id = e.id 
 inner join roles r on re.role_id = r.id
-where r.role_name like '%Java%developer';
+where r.role_name like '%Java_developer';
 
 -- 8. Вывести имена и должность только Python разработчиков.
 select e.employee_name, r.role_name
